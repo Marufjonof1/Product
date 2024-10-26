@@ -1,66 +1,27 @@
-.Workat{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.Workat .img{
-    margin: 40px auto;
-}
-.Workat .img img{
-    width: 550px;
-    height: 555px;
-}
-
-.Workat button{
-    width: 165px;
-    height: 53px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-}
-.Workat .text{
+.Workat {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-}
-.Workat .text h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: var(--black-color);
-}
-.Workat .text p{
-    margin-top: 18px;
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--black-color);
-}
-.Workat .btn{
-    margin-top: 45px;
-    display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 15px;
-    width: 345px;
+    line-height: 2.2rem;
+    height: 100%;
+    margin-top: 20px;
 }
-.getstart{
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    background: #02897A;
-}
-.watch{
-    background: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #02897A;
-    text-decoration-line: underline;
-}
-.watch:active{
-    color: red;
+.Workat button {
+    width: 224px;
+    height: 44px;
+    top: 1176px;
+    left: 589px;
+    padding: 11px 18px 11px 18px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    background: #02897A;    
+
 }

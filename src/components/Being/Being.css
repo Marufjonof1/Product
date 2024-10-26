@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.workat-section {
+    padding: 50px;
+    text-align: center;
+}
+.workat-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.workat-image {
+    margin-right: 30px;
+}
+.workat-info {
+    text-align: left;
+}
+.workat-info ul {
+    list-style: none;
+    padding: 0;
+}
+.workat-info li {
+    margin-bottom: 20px;
+}
+.workat-info li span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.workat-info li p {
+    margin: 5px 0;
+    color: #666;
+}
+  
